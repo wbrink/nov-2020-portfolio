@@ -1,0 +1,23 @@
+.hero {
+  height: 93%; // the header is 7% tall
+  position: relative;
+  // background-image: url("./noisy-texture-100x100-o5-d10-c-f34379-t1.png");
+  background-image: url("./vhs_design_mobile1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-color: #f0ebdd;
+  padding: 10px;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+
+  }
+
+  @media only screen and (min-width: 700) {
+    background-size: auto;
+  }
+}
