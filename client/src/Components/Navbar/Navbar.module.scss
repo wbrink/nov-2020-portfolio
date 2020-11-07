@@ -60,12 +60,13 @@
   // text-transform: uppercase;
 
   .hamburger {
-    width: 1.2em;
-    height: 1.2em;
+    width: 1.5em;
+    height: 1.3em;
     position: absolute;
     top: 50%;
     left: 10px;
     transform: translateY(-50%);
+    fill: white;
 
     &:active {
       color: rgb(0, 255, 255);
