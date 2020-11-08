@@ -6,7 +6,6 @@
 
 html, body {
   height: 100%;
-  width: 100%;
   font-family: Helvetica;
 }
 
@@ -17,6 +16,16 @@ html, body {
 
 .app {
   height: 100%;
+  max-width: 1920px;
+  margin: auto;
+}
+
+.container {
+  max-width: 1920px;
+  margin: auto;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
 }
 
 body {

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   sodipodi:docname="vhs_big.svg"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 129.02258 95.935369"
+   height="362.59036"
+   width="487.64438">
+  <defs
+     id="defs2">
+    <filter
+       height="1.0000603"
+       y="-3.0153638e-05"
+       width="1.0000132"
+       x="-6.5780087e-06"
+       id="filter130"
+       style="color-interpolation-filters:sRGB"
+       inkscape:collect="always">
+      <feGaussianBlur
+         id="feGaussianBlur132"
+         stdDeviation="0.0017862892"
+         inkscape:collect="always" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     fit-margin-bottom="0"
+     fit-margin-right="0"
+     fit-margin-left="0"
+     fit-margin-top="0"
+     inkscape:window-maximized="1"
+     inkscape:window-y="-8"
+     inkscape:window-x="1912"
+     inkscape:window-height="1027"
+     inkscape:window-width="1920"
+     inkscape:showpageshadow="false"
+     borderlayer="true"
+     units="px"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:current-layer="layer4"
+     inkscape:document-units="mm"
+     inkscape:cy="516.37288"
+     inkscape:cx="-816.7063"
+     inkscape:zoom="0.35"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-331.74588,-24.272544)"
+     style="opacity:1"
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <rect
+       transform="matrix(-0.99954086,-0.03029972,0.75910095,-0.65097293,0,0)"
+       y="-159.93819"
+       x="-531.1098"
+       height="67.595406"
+       width="71.870872"
+       id="rect12"
+       style="fill:#00ff00;stroke-width:0.107072" />
+  </g>
+  <g
+     transform="translate(-331.74588,-24.272544)"
+     style="opacity:1"
+     inkscape:label="Layer 2"
+     id="layer2"
+     inkscape:groupmode="layer">
+    <rect
+       style="opacity:0.784722;fill:#ff00ff;stroke-width:0.107072"
+       id="rect12-5"
+       width="71.870872"
+       height="67.595406"
+       x="-510.70053"
+       y="-136.35527"
+       transform="matrix(-0.99954086,-0.03029972,0.75910095,-0.65097293,0,0)" />
+  </g>
+  <g
+     transform="translate(-331.74588,-24.272544)"
+     style="opacity:1;filter:url(#filter130)"
+     inkscape:label="Layer 3"
+     id="layer3"
+     inkscape:groupmode="layer">
+    <rect
+       style="opacity:0.784722;fill:#d40000;stroke-width:0.107072"
+       id="rect12-3"
+       width="71.870872"
+       height="67.595406"
+       x="-490.06845"
+       y="-111.31803"
+       transform="matrix(-0.99954086,-0.03029972,0.75910095,-0.65097293,0,0)" />
+  </g>
+  <g
+     transform="translate(-331.74588,-24.272544)"
+     style="display:inline;opacity:1"
+     inkscape:label="Layer 4"
+     id="layer4"
+     inkscape:groupmode="layer">
+    <rect
+       style="opacity:0.784722;fill:#0000ff;stroke-width:0.107072"
+       id="rect12-0"
+       width="71.870872"
+       height="67.595406"
+       x="-469.37057"
+       y="-86.380234"
+       transform="matrix(-0.99954086,-0.03029972,0.75910095,-0.65097293,0,0)" />
+  </g>
+  <g
+     transform="translate(-331.74588,-24.272544)"
+     style="display:inline;opacity:0.75"
+     inkscape:label="Layer 6"
+     id="layer7"
+     inkscape:groupmode="layer" />
+  <g
+     transform="translate(-331.74588,-24.272544)"
+     style="display:inline;opacity:0.743056"
+     inkscape:label="Layer 7"
+     id="layer8"
+     inkscape:groupmode="layer" />
+</svg>

@@ -1,19 +1,14 @@
 .hero {
-  height: 85%; // the header is 7% tall
+  z-index: 1;
+  height: 450px;
   position: relative;
-  background-image: url("./vhs_design_mobile1.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position-x: center;
-  // background-position-y: center;
   background-color: #f3ecd9;
+  box-shadow: inset 0px 0px 0px 10px white;
   padding: 10px;
 
   h1 {
     font-size: 2.5rem;
     letter-spacing: 3px;
-
-    
   }
 
   p {
@@ -46,19 +41,45 @@
 
   }
 
+  .heroImages {
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+
+    .heroIcon {
+      position: absolute;
+      bottom: 4%;
+      left: 0;
+    }
+
+    .heroMoon {
+      z-index: -1;
+      position: absolute;
+      top: -40px;
+      right: 25%;
+      width: 450px;
+      transform: translateX(40%);
+
+      @media only screen and (max-width: 700px) {
+        width: 300px;
+        top: 40px;
+        right: 25%;
+      }
+    }
+  }
+
 
   @media only screen and (min-width: 700px) {
-    padding-top: 20px;
-    padding-left: 50px;
-
-
-    background-image: url("./vhs_design_tablet.svg");
+    padding-top: 15px;
+    padding-left: 20px;
   }
 
   // for desktop
-  @media only screen and (min-width: 1365px) {
-    height: 60%;
-    background-image: none;
+  @media only screen and (min-width: 1100px) {
   }
 
 }
