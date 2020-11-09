@@ -58,8 +58,6 @@ const About = () => {
         <h1 className="section-title">ABOUT ME</h1>
         <p className="section-writing">I'm a web developer based out of the California Central Valley. I enjoy creating web apps and enjoy being a student of this field.</p>
       </div>
-
-
     </div>
   )
 }
