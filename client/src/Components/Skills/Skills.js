@@ -10,6 +10,9 @@ import nodejs from "./nodejs-original.svg";
 import css3 from "./css3-original.svg";
 import express from "./express-original.svg";
 import javascript from "./javascript-original.svg";
+import server from "./server.svg";
+import database from "./database.svg";
+import design from "./design.svg"; 
 
 const Skills = () => {
   return (
@@ -18,47 +21,38 @@ const Skills = () => {
 
       <div className={styles.skillsContainer}>
         <div className={styles.box}>
-          <h2>BACK-END</h2>
+          <div className={styles.iconContainer2}></div>
+          <img className={styles.titleIcon} src={server} alt=""/>
+          <h2 className={styles.h2}>BACK-END</h2>
           <ul className={styles.ul}>
-            <li>Nodejs</li>
-            <li>Express</li>
-            <li>Socket.io</li>
+            <li><img className={styles.icon} src={nodejs} alt=""/><span>Nodejs</span></li>
+            <li><img className={styles.icon} src={express} alt=""/><span>Express</span></li>
+            <li><img className={styles.icon} src={socketio} alt=""/><span>Socket.io</span></li>
           </ul>
-          <div className={styles.iconContainer}>
-            <img className={styles.icon} src={nodejs} alt=""/>
-            <img className={styles.icon} src={express} alt=""/>
-            <img className={styles.icon} src={socketio} alt=""/>
-          </div>
+          <div className={styles.iconContainer}></div>
           
         </div>
         <div className={styles.box}>
-          <h2>FRONT-END</h2>
+          <img className={styles.titleIcon} src={design} alt=""/>
+          <h2 className={styles.h2}>FRONT-END</h2>
           <ul className={styles.ul}>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>SASS</li>
-            <li>Javascript</li>
-            <li>React</li>
+            <li><img className={styles.icon} src={html5} alt=""/><span>HTML5</span></li>
+            <li><img className={styles.icon} src={css3} alt=""/><span>CSS3</span></li>
+            <li><img className={styles.icon} src={sass} alt=""/><span>SASS</span></li>
+            <li><img className={styles.icon} src={javascript} alt=""/><span>Javascript</span></li>
+            <li><img className={styles.icon} src={reactSVG} alt=""/><span>React</span></li>
           </ul>
-          <div className={styles.iconContainer}>
-            <img className={styles.icon} src={html5} alt=""/>
-            <img className={styles.icon} src={css3} alt=""/>
-            <img className={styles.icon} src={sass} alt=""/>
-            <img className={styles.icon} src={javascript} alt=""/>
-            <img className={styles.icon} src={reactSVG} alt=""/>
-          </div>
+          <div className={styles.iconContainer}></div>
           
         </div>
         <div className={styles.box}>
-          <h2>DATABASES</h2>
+          <img className={styles.titleIcon} src={database} alt=""/>
+          <h2 className={styles.h2}>DATABASES</h2>
           <ul className={styles.ul}>
-            <li>MySQL</li>
-            <li>MongoDB</li>
+            <li><img className={styles.icon} src={mysql} alt=""/><span>MySQL</span></li>
+            <li><img className={styles.icon} src={mongodb} alt=""/><span>MongoDB</span></li>
           </ul>
-          <div className={styles.iconContainer}>
-            <img className={styles.icon} src={mysql} alt=""/>
-            <img className={styles.icon} src={mongodb} alt=""/>
-          </div>
+          <div className={styles.iconContainer}></div>
             
           
         </div>
