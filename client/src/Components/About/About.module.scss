@@ -5,6 +5,7 @@
   flex-direction: column;
   align-items: center;
   padding-top: 100px;
+  padding-bottom: 65px;
 
   // every child element margin-bottom 
   & > * {
@@ -47,27 +48,33 @@
 
 
 .computer {
-  animation: changeColor 4s infinite ease alternate;
+  animation: changeColor 3.5s infinite alternate;
 }
 
 .otherColors {
-  animation: changeColor 4s infinite ease alternate;
+  animation: changeColor 3.5s infinite alternate;
 }
 
 @keyframes changeColor {
+  // 0% {
+  //   fill: #780116
+  // }
+  // 25% {
+  //   fill: #C32F27;
+  // }
+  // 50% {
+  //   fill: #D8572A;
+  // }
+  // 75% {
+  //   fill: #DB7C26;
+  // }
+  // 100% {
+  //   fill: #FFC02A;
+  // }
   0% {
-    fill: #780116
-  }
-  25% {
-    fill: #C32F27;
-  }
-  50% {
-    fill: #D8572A;
-  }
-  75% {
-    fill: #DB7C26;
+    fill: rgba(145, 77, 212, 0.911);
   }
   100% {
-    fill: #FFC02A;
+    fill: #ff2323;
   }
 }
