@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useRef} from 'react';
 import styles from "./Skills.module.scss";
 import mysql from "./mysql-original.svg";
 import mongodb from "./mongodb-original.svg";
@@ -13,10 +13,22 @@ import javascript from "./javascript-original.svg";
 import server from "./server.svg";
 import database from "./database.svg";
 import design from "./design.svg"; 
+import { useLocation } from 'react-router-dom';
 
 const Skills = () => {
+  const location = useLocation();
+  const ref = useRef();
+
+  useEffect(() => {
+    if (location.hash === "#skills") {
+      ref.current.scrollIntoView({behavior: "smooth"});
+    } else {
+      return;
+    }
+  })
+
   return (
-    <div className={styles.skills}>
+    <div className={styles.skills} ref={ref}>
       <h1 className="section-title">SKILLS</h1>
 
       <div className={styles.skillsContainer}>

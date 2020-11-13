@@ -1,9 +1,21 @@
-import React from "react";
+import React, {useRef, useEffect} from "react";
 import styles from "./About.module.scss";
+import {useLocation} from "react-router-dom";
 
 const About = () => {
+  const location = useLocation();
+  const ref = useRef();
+
+  useEffect(() => {
+    if (location.hash == "#about") {
+      ref.current.scrollIntoView({behavior: 'smooth'})
+    } else {
+      return;
+    }
+  })
+
   return (
-    <div className={styles.about}>
+    <div className={styles.about} ref={ref}>
       <svg className={styles.graphic} viewBox="0 0 1140 655" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="webGraphic">
         <path id="Vector" d="M246.827 581.008C279.546 581.008 306.07 554.484 306.07 521.765C306.07 489.046 279.546 462.521 246.827 462.521C214.108 462.521 187.583 489.046 187.583 521.765C187.583 554.484 214.108 581.008 246.827 581.008Z" fill="#F2F2F2"/>

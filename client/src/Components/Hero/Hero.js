@@ -1,11 +1,24 @@
-import React, {useState} from "react";
+import React, {useState, useEffect, useRef} from "react";
 import styles from "./Hero.module.scss";
 import tabletStyle from "./vhs_design_tablet.svg";
 import moon from "./vhs_moon.svg";
+import {useLocation} from "react-router-dom";
 
-const Hero = () => {
+const Hero = (props) => {
+  const location = useLocation();
+  const heroSectionRef = useRef();
+
+  useEffect(() => {
+    console.log("location", location);
+    if (location.hash == "#home") {
+      heroSectionRef.current.scrollIntoView({behavior: 'smooth'})
+    } else {
+      return;
+    }
+  })
+
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} ref={heroSectionRef}>
       <div className={styles.heroImages}>
         <img src={tabletStyle} alt="" className={styles.heroIcon}/>
         <svg className={styles.heroMoon} viewBox="0 0 517 512" fill="none" xmlns="http://www.w3.org/2000/svg">
