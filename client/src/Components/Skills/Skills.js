@@ -29,9 +29,9 @@ const Skills = () => {
 
   return (
     <div className={styles.skills} ref={ref}>
-      <h1 className="section-title">SKILLS</h1>
-
       <div className={styles.skillsContainer}>
+
+
         <div className={styles.box}>
           <div className={styles.iconContainer2}></div>
           <img className={styles.titleIcon} src={server} alt=""/>
@@ -40,10 +40,10 @@ const Skills = () => {
             <li><img className={styles.icon} src={nodejs} alt=""/><span>Nodejs</span></li>
             <li><img className={styles.icon} src={express} alt=""/><span>Express</span></li>
             <li><img className={styles.icon} src={socketio} alt=""/><span>Socket.io</span></li>
-          </ul>
-          <div className={styles.iconContainer}></div>
-          
+          </ul>          
         </div>
+
+
         <div className={styles.box}>
           <img className={styles.titleIcon} src={design} alt=""/>
           <h2 className={styles.h2}>FRONT-END</h2>
@@ -53,10 +53,10 @@ const Skills = () => {
             <li><img className={styles.icon} src={sass} alt=""/><span>SASS</span></li>
             <li><img className={styles.icon} src={javascript} alt=""/><span>Javascript</span></li>
             <li><img className={styles.icon} src={reactSVG} alt=""/><span>React</span></li>
-          </ul>
-          <div className={styles.iconContainer}></div>
-          
+          </ul>          
         </div>
+
+
         <div className={styles.box}>
           <img className={styles.titleIcon} src={database} alt=""/>
           <h2 className={styles.h2}>DATABASES</h2>
@@ -64,7 +64,7 @@ const Skills = () => {
             <li><img className={styles.icon} src={mysql} alt=""/><span>MySQL</span></li>
             <li><img className={styles.icon} src={mongodb} alt=""/><span>MongoDB</span></li>
           </ul>
-          <div className={styles.iconContainer}></div>
+          
             
           
         </div>
