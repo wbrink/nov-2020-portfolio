@@ -10,9 +10,9 @@ import nodejs from "./nodejs-original.svg";
 import css3 from "./css3-original.svg";
 import express from "./express-original.svg";
 import javascript from "./javascript-original.svg";
-import server from "./server.svg";
-import database from "./database.svg";
-import design from "./design.svg"; 
+import server from "./server1.svg";
+import database from "./database2.svg";
+import design from "./design2.svg"; 
 import { useLocation } from 'react-router-dom';
 
 const Skills = () => {

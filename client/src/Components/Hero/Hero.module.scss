@@ -1,8 +1,10 @@
 .hero {
   z-index: 1;
+  margin-top: 50px; // this is because the navbar is 50px tall and is sticky header
   height: 450px;
   position: relative;
   background-color: #f3ecd9;
+  background-color: rgb(240, 240, 240);  
   // box-shadow: inset 0px 0px 0px 15px white;
   padding: 10px;
 

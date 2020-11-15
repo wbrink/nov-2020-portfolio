@@ -11,7 +11,8 @@ const Hero = (props) => {
   useEffect(() => {
     console.log("location", location);
     if (location.hash == "#home") {
-      heroSectionRef.current.scrollIntoView({behavior: 'smooth'})
+      // heroSectionRef.current.scrollIntoView({behavior: 'smooth'})
+      window.scrollTo({top: 0, behavior: 'smooth'})
     } else {
       return;
     }

@@ -42,10 +42,10 @@ const Navbar = () => {
 
         <nav style={{top: toggleMenu.top, color: toggleMenu.color}}>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <li><Link to={{pathname: "/", hash: "home"}}>Home</Link></li>
+            <li><Link to={{pathname: "/", hash: "about"}}>About</Link></li>
+            <li><Link to={{pathname: "/", hash: "skills"}}>Skills</Link></li>
+            <li><Link to={{pathname: "/", hash: "portfolio"}}>Portfolio</Link></li>
           </ul>
         </nav>
         
